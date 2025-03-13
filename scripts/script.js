@@ -9,9 +9,9 @@ document.getElementById("searchButton").addEventListener("click", async () => {
 
         document.getElementById("mealInfo").innerHTML = meal ? `
             <h2>${meal.strMeal}</h2>
-            <p>Category: ${meal.strCategory}</p>
-            <p>Area: ${meal.strArea}</p>
-            <p>Instructions: ${meal.strInstructions.slice(0, 100)}...</p>
+            <p><b>Category:</b> ${meal.strCategory}</p>
+            <p><b>Area:</b> ${meal.strArea}</p>
+            <p><b>Instructions:</b> ${meal.strInstructions.slice(0, 100)}...</p>
             <img src="${meal.strMealThumb}" alt="${meal.strMeal}">
         ` : "<p>No meal found. Try another search.</p>";
     } catch {

@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 450px;
     margin: 50px auto;
     background: #fff;
     padding: 20px;
@@ -32,7 +32,7 @@ input {
 button {
     padding: 10px 15px;
     margin-left: 10px;
-    background-color: #ff6600;
+    background-color: #105db5;
     color: white;
     border: none;
     border-radius: 5px;
@@ -41,7 +41,7 @@ button {
 }
 
 .meal-info {
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 
